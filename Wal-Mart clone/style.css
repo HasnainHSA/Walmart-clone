@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;     
+  padding: 0;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* body{
+    margin: 0 2%;
+} */
+.gaping{
+    padding: 10px;
+    justify-content: center;
+    padding-top: 15px;
+ }
+ .radius{
+     padding-left: 250px;
+     text-align: end;
+ }
+ nav{
+     padding-top: 20px;
+     justify-content: space-between;
+     padding-left: 50px;
+ }
+ .gaping:hover{
+     background: gray;
+     border-radius: 10px;
+ }
+ 
+ .imgsizes{
+    margin-top: 10px;
+    width: 1100px;
+    margin-left: 140px;
+     height: 30px;
+ }
+ 
+.mycard{
+ margin-left: 30px;
+ margin-top: 40px;
+ border-radius: 15px;
+}
+
+.minecard{
+    
+    height: 50px;
+}
+
+.text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.search{
+  border-radius: 5px;
+}
+
+
+
+.alert{
+  margin-left: 20px;
+    border-radius: 20px;
+  width: 1300px;
+  align-items: center;
+  height: 60PX;
+}
+
+.margsize{
+    margin: 20px;
+    padding: 5px;
+}
+.margsizeaa{
+    margin: 20px, 40px, 80px, 40px ;
+    padding: 60px;
+    
+}
+.margsizea{
+  margin-left: 30px;
+  padding: 10px;
+  
+}
+
+
+/* ----first card----- */
+#belowScrollBar {
+  display: flex;
+  margin-top: 20px;
+}
+#belowScrollBar > #main1 {
+  width: 32%;
+  height: 380px;
+  margin-left: 15px;
+  border-radius: 10px;
+  
+  box-shadow: #00000029 0px 1px 4px;
+}
+#belowScrollBar > #main1 :hover {
+  box-shadow: #0000003d 0px 3px 8px;
+}
+#belowScrollBar > #main1 :first-child {
+  box-shadow: none;
+}
+#div1 {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #e6f1fc;
+  box-shadow: #00000029 0px 1px 4px;
+}
+#div1 > .gotoCart {
+  width: 100px;
+  height: 40px;
+  margin: 15px 0px 0px 30px;
+}
+#div1 > .hd {
+  margin-left: 10px;
+}
+#div2 {
+  width: 100%;
+  height: 65%;
+  border-radius: 10px;
+  box-shadow: #00000029 0px 1px 4px;
+}
+#div2 > #hddiv .hd {
+  padding: 15px;
+}
+#logoDiv {
+  display: flex;
+  margin-top: 20px;
+}
+#logoDiv > .divimg {
+  width: 27%;
+  height: 160px;
+  margin-left: 14px;
+  text-align: center;
+  line-height: 14px;
+  font-size: 10px;
+}
+#logoDiv > .divimg .imgpop {
+  width: 100%;
+  height: 65%;
+}
+
+
+ 
+
+/* third Card */
+  #prepForHolidays > .hd {
+    padding-left: 40px;
+  }
+  
+  #prepForHolidays > div {
+    width: 100%;
+    height: 84%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: 47% 47%;
+    justify-content: center;
+  }
+  #gridDivs > .divStretch .imgStretch {
+    margin-left: 30px;
+  }
+  #gridDivs > .divStretch .imgStretch:hover {
+    width: 70%;
+  }
+  #gridDivs > .divStretch .parStretch {
+    text-align: center;
+    font-size: 11px;
+  }
+  .imgkitchens{
+    width: 120px;
+    height: 120px;
+}
+
+
+  /* Early Tech */
+  #ear-tech { 
+    display: grid;
+    grid-template-rows: 350px;
+    grid-template-columns: repeat(6, 15%);
+    justify-content: space-around;
+    grid-gap: 1%;
+    text-decoration: underline white;
+  }
+  #img {
+    border-radius: 10px;
+    box-shadow: #0000003d 0px 3px 8px;
+  }
+  #text {
+    height: 40%;
+  }
+  #text > h2 {
+    margin-left: 10px;
+  }
+  .pDiv > .txt {
+    margin-top: -10px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  #img > button {
+    background-color: #0071dc;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    margin-top: -40px;
+  }
+  #img > button:hover {
+    background-color: #004f9a;
+  }
+  #img > img {
+    width: 100%;
+    height: 45%;
+    border-radius: 10px;
+  }
+
+
+/* walmart-get a 4Hrs */
+  
+#wmart-get-4hrs {
+    display: flex;
+    margin: auto;
+    height: 80px;
+    width: 98%;
+    margin-top: 20px;
+    color: #4071dc;
+    border-radius: 10px;
+    box-shadow: #0000003d 0px 3px 8px;
+  }
+  #wmart-get-4hrs > img {
+    height: 33px;
+    width: 83px;
+    margin: 20px 25px;
+  }
+  #wmart-get-4hrs > a > .btnb {
+    background-color: #5483e1;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: 0px;
+    margin: 0px 0px 40px 20px;
+  }
+  #wmart-get-4hrs > a > .btnb:hover {
+    background-color: #2465e7;
+  }
+  #wmart-get-4hrs > a {
+    margin: 20px 15px;
+  }
+
+  
+
+
+/* cash back */
+#cashBack {
+    display: flex;
+    width: 99%;
+    height: 90px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: #0000003d 5px 5px 10px;
+  }
+  #cashBack > div {
+    width: 80px;
+    height: 50px;
+  }
+  #cashBack > div img {
+    width: 100%;
+    height: 100%;
+  }
+  #cashBack > h3,
+  a {
+    margin-left: 15px;
+    color: black;
+  }
+  #cashBack > a:hover {
+    color: #6666ee;
+  }
+  #cashBack > h3:hover {
+    text-decoration: underline 3px solid #5483e1;
+  }
+
+
+
+  /* Your fav departments */
+  .your-fav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .your-fav > h3 {
+    height: 115px;
+    width: 15%;
+    border: 1px solid #f3f3f4;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #e7f1fb;
+    padding-top: 100px;
+    text-decoration: underline #e7f1fb;
+  }
+  .your-fav > h3:hover {
+    box-shadow: #0000003d 0px 3px 6px;
+    font-size: 20px;
+  }
+
+/* Sharing our values */
+  .threeBox {
+    display: flex;
+    margin-top: 20px;
+    margin: 100px;
+  }
+  .threeBox > div {
+    margin: auto;
+    border: 2px solid #ececec;
+    width: 32%;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: #00000029 0px 1px 4px;
+  }
+  .threeBox > div:hover {
+    box-shadow: #0000003d 0px 3px 8px;
+  }
+  .threeBox > div .boxc
+{
+    font-family: sans-serif;
+    line-height: 35px;
+    margin-left: 10px;
+  }
+  
+  p, .gotoCart {
+    font-family: sans-serif;
+    line-height: 14px;
+    margin-left: 10px;
+  }
+  .gotoCart {
+    margin-top: 5px;
+    padding: 7px;
+    width: 100px;
+    border-radius: 30px;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bold;
+  }
+  .gotoCart:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+  .threeBox > p {
+    font-size: 12px;
+    font-family: Helvetica;
+  }
+  .threeBox > div img {
+    width: 100%;
+    height: 60%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  /* trendingComputer */
+  #trending-inCom {
+    display: grid;
+    grid-template-rows: 350px;
+    grid-template-columns: repeat(6, 15%);
+    justify-content: space-around;
+    grid-gap: 1%;
+    text-decoration: underline white;
+  }
+  #divImg {
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: #0000003d 0px 3px 8px;
+  }
+  #content {
+    height: 40%;
+  }
+  #content > h2 {
+    margin-left: 10px;
+  }
+  .contentDiv > p {
+    margin-top: -10px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    line-height: 15px;
+  }
+  #divImg > .gotoCart{
+    background-color: #0071dc;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    margin-top: -40px;
+  }
+  #divImg > .gotoCart:hover {
+    background-color: #004f9a;
+  }
+  #divImg > img {
+    width: 100%;
+    height: 40%;
+    border-radius: 10px;
+  }
+  
+  /* Two Box */
+  .twoBox {
+    display: flex;
+    margin-top: 20px;
+  }
+  .twoBox > div {
+    width: 50%;
+    height: 450px;
+    border: 1px solid #ececec;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: #00000029 0px 1px 4px;
+  }
+  .twoBox > div:hover {
+    box-shadow: #0000003d 0px 3px 8px;
+  }
+  .twoBox > div img {
+    width: 100%;
+    height: 70%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .twoBox > div h3,
+  button {
+    line-height: 25px;
+    margin-left: 10px;
+  }
+
+
+/* Feedback Div */
+#feedback {
+    background-color: #e6f1fc !important;
+    height: 110px !important;
+    text-align: center !important;
+    padding-top: 20px !important;
+    margin-top: 20px !important;
+    letter-spacing: 1px !important;
+  }
+  #feedback > #feedbackButton {
+    padding: 13px !important;
+    width: 150px !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    background-color: white !important;
+    color: black !important;
+  }
+  #feedback > #feedbackButton:hover {
+    border: 2px solid black !important;
+  }
+
+/* footer */
+  
+#footer {
+    background-color: #1e3f7b !important;
+    height: 200px !important;
+    text-align: center !important;
+  }
+  #tags {
+    padding: 30px !important; 
+  }
+  #tags > a {
+    color: white !important;
+    margin-top: 30px !important;
+    text-decoration: none !important;
+    font-family: sans-serif !important;
+    font-size: 15px !important;
+    line-height: 30px !important;
+  }
+  #footer > h5 {
+    color: whitesmoke !important;
+    text-align: center !important;
+    font-family: sans-serif !important;
+    font-weight: 200 !important;
+    font-size: 12px !important;
+  }
