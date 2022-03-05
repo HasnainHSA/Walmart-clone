@@ -8,4 +8,4 @@ Framework: Bootstrap & tailwind css
 
 Authentication & Hosting : Firebase
 
-Here you go : <a style="color: blue;" herf="https://hasnain-hsa-assignments.web.app/Assignment%2013/index.html#">WAl-Mart.com</a>
+Here you go : <a style="color: blue;" herf="https://hasnain-hsa-assignments.web.app/Assignment%2013/index.html#">https://hasnain-hsa-assignments.web.app/Assignment%2013/index.html#</a>
