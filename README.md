@@ -1,4 +1,4 @@
-<h1>Walmart clone</h1>
+<h1><b>Walmart clone</b></h1>
 
 This repository contains the code for the walmart clone project.
 
